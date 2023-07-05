@@ -4,4 +4,4 @@ Simple and fun QR code project done in Python that essentially allows you to sto
 
 Saves the QR code called "secure_QRCode" in the directory where you created your QR code project to begin with. In my case, I have my Resume stored in the QR code, so as soon as you scan it, it'll open up a Google Drive with my 1-page Software Engineering Resume.
 
-The code has error handling built-in using a try-catch block as well as a debugger portion that can check if the image is being saved to begin with.
+Overall, the code is written using correct programming practices, such as wrapping the code in a function, using if __name__ == "__main__" for singular file execution, error handling, comments (single & multi), correct syntax & semantics, variable name, and a return type for the function.
