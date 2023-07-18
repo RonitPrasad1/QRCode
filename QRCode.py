@@ -32,7 +32,7 @@ def qr_code_generator() -> None:
 		print("An error occurred while generating the QR code!", error)
 
 	# DEBUGGER: Check if the image was saved successfully:
-	'''
+    '''
     try:
         with open('qr_code.png', 'rb'):
             print("DEBUGGER: Works!")
