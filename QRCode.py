@@ -3,7 +3,7 @@ import qrcode
 
 
 # Create the QRCode with the chosen data inside of it:
-def QRCodeGenerator() -> None:
+def qr_code_generator() -> None:
 	myQRCode = qrcode.QRCode(
 		version=1,
 		error_correction=qrcode.constants.ERROR_CORRECT_L,
@@ -41,4 +41,4 @@ def QRCodeGenerator() -> None:
 
 # Functional-based calling:
 if __name__ == "__main__":
-	QRCodeGenerator()
+	qr_code_generator()
